@@ -85,6 +85,7 @@ input[type=text], input[type=email]{
 }
 .form-group{
     background: transparent;
+    color: white;
 }
 #input1,#input2,#comment{
     background-color: transparent;
