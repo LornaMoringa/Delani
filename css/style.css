@@ -1,0 +1,9 @@
+header{
+    background-image: url("../images/h_img.jpg");
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    margin-bottom: 40px;
+}
