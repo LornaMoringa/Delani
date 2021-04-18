@@ -12,6 +12,9 @@ h1{
     padding-top: 40px;
     font-size: 60px;
 }
+h2{
+    text-align: center;
+}
 #slogan{
     padding-top: 20px;
 }
@@ -41,6 +44,7 @@ h1{
     background-repeat: no-repeat;
     padding: 10rem;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 input[type=text], input[type=email]{
     background: transparent;
