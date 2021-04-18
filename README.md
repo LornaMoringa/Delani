@@ -34,4 +34,4 @@ Javascript
 
 ## [License](/Delani-studio/LICENSE.md)
 
-MIT © [MIT]( https://kiptoo-097.github.io)
+MIT © [MIT]()
