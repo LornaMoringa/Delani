@@ -17,9 +17,11 @@ header{
     background-image: url("../images/c_images.jpg");
     color: white;
     background-size: cover;
+}
 #mouse{
     margin-top: 1cm;
     margin-bottom: 0cm;
+}
 .service{
     background-image: url("../images/c_image.jpg");
     text-align: center;
@@ -36,37 +38,37 @@ input[type=text], input[type=email]{
     background: transparent;
     };
 .required::-webkit-input-placeholder {
-    color: white;
+    color: white; 
+ }
+ .social{
+    text-align: center;
     }
-    .social{
-        text-align: center;
-    }
-    #design2 {
-        display: none;
-    }
-    .work4 {
-        position: relative;
-    }
-    .black {
-        position: absolute;
-        display: none;
-        border: 2px solid white;
-        border-top: 4px;
-        text-align: center;
-    }
-    #dev2{
-        display: none;
-    }
-    #product2{
-        display:none;
-    }
+ #design2 {
+    display: none;
+ }
+ .work4 {
+    position: relative;
+ }
+ .black {
+    position: absolute;
+    display: none;
+    border: 2px solid white;
+    border-top: 4px;
+    text-align: center;
+ }
+ #dev2{
+    display: none;
+ }
+ #product2{
+    display:none;
+ }
 .message-form{
-        background: transparent;
-    }
+    background: transparent;
+}
 .form-group{
-        background: transparent;
-    }
+    background: transparent;
+}
 #input1,#input2,#comment{
     background-color: transparent;
-    }
+}
     
