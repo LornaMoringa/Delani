@@ -11,3 +11,15 @@ $('document').ready(function () {
         $('#product2').toggle();
         $('#product1').hide();
     })
+    $('#design3').click(function () {
+        $('#design2').hide();
+        $('#design1').show();
+    })
+    $('#dev3').click(function () {
+        $('#dev2').hide();
+        $('#dev1').show();
+    })
+    $('#product3').click(function () {
+        $('#product2').hide();
+        $('#product1').show();
+    })
