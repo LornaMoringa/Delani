@@ -62,8 +62,11 @@ $('document').ready(function () {
     })
     $("form#message-form").submit(function () {
         var name = $("input#input1").val();
+        var form = document.getElementsByName("form1")[0];
         if ($("input#input1").val() && $("input#input2").val()) {
             alert(name + ",thank you for reaching out to us. We will get back to you soon.");
+            form.reset();
+            return false;
         }
         else {
             alert("Please enter your name and email address!");
