@@ -6,25 +6,17 @@
     background-repeat: no-repeat;
     padding: 5rem;
     margin-bottom: 40px;
-    height: 600px;
+    height: 800px;
 }
-.container{
- @media (min-width:1400px) {max-width: 1500px;
- }   
-}
-
 h1{
-    padding-top:;
-    font-size:;
+    margin-top:40px;
+    font size: 50px;;
 }
 h2{
     text-align: center;
 }
-#slogan{
-    padding-top:;
-}
 #logo{
-    margin-top: 100px;
+    margin-top: 170px;
 }
 .aboutus{
     text-align: center;
@@ -38,7 +30,7 @@ h2{
     background-size: cover;
 }
 #mouse{
-    margin-top:;
+    margin-top:150px;
     margin-bottom:;
 }
 #footer{
@@ -54,14 +46,16 @@ h2{
     margin-bottom: 40px;
     margin-top: 40px;
 }
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1480px;
+    }
+  }
 input[type=text], input[type=email]{
     background: transparent;
     }
 #textarea{
     background: transparent;
-    };
-.required::-webkit-input-placeholder {
-    color: white; 
  }
  .social{
     text-align: center;
@@ -87,11 +81,16 @@ input[type=text], input[type=email]{
  }
 .message-form{
     background: transparent;
+    color: white;
 }
 .form-group{
     background: transparent;
 }
 #input1,#input2,#comment{
     background-color: transparent;
+    color: white;
 }
+::placeholder {
+    color: white;
+  }
     
