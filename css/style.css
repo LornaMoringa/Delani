@@ -6,6 +6,17 @@
     background-repeat: no-repeat;
     padding: 5rem;
     margin-bottom: 40px;
+    height: 1000px;
+}
+h1{
+    padding-top: 50px;
+    font-size: 60px;
+}
+#slogan{
+    padding-top: 20px;
+}
+#logo{
+    padding-top: 250px;
 }
 .aboutus{
     text-align: center;
@@ -19,8 +30,8 @@
     background-size: cover;
 }
 #mouse{
-    margin-top: 1cm;
-    margin-bottom: 0cm;
+    margin-top: 100px;
+    margin-bottom: 0px;
 }
 .service{
     background-image: url("../assets/backgrounds/s_image.jpg");
