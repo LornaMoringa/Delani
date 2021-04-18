@@ -1,5 +1,5 @@
-header{
-    background-image: url("../images/h_img.jpg");
+.header{
+    background-image: url("../assets/backgrounds/h_img.jpg");
     text-align: center;
     color: white;
     background-size: cover;
@@ -14,7 +14,7 @@ header{
     text-align: center;
 }
 .contact{
-    background-image: url("../images/c_images.jpg");
+    background-image: url("../assets/backgrounds/c_image.jpg");
     color: white;
     background-size: cover;
 }
@@ -23,7 +23,7 @@ header{
     margin-bottom: 0cm;
 }
 .service{
-    background-image: url("../images/c_image.jpg");
+    background-image: url("../assets/backgrounds/s_image.jpg");
     text-align: center;
     color: white;
     background-size: cover;
