@@ -35,3 +35,28 @@ $('document').ready(function () {
         $('#product2').hide();
         $('#product1').show();
     })
+    $('.work4').hover(function () {
+        $('#black').toggle();
+        $('#work4').fadeout();
+    })
+    $('.work3').hover(function () {
+        $('#ontario').toggle();
+    })
+    $('.work2').hover(function () {
+        $('#pyramids').toggle();
+    })
+    $('.work1').hover(function () {
+        $('#jim').toggle();
+    })
+    $('#work5').hover(function () {
+        $('#niceday').toggle();
+    })
+    $('#work6').hover(function () {
+        $('#calc').toggle();
+    })
+    $('#work7').hover(function () {
+        $('#burned').toggle();
+    })
+    $('#work8').hover(function () {
+        $('#giraffe').toggle();
+    })
