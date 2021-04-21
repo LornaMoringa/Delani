@@ -1,4 +1,4 @@
-.header{
+.header {
     background-image: url("../assets/backgrounds/h_img.jpg");
     text-align: center;
     color: white;
@@ -8,34 +8,43 @@
     margin-bottom: 40px;
     height: 800px;
 }
-h1{
-    margin-top:40px;
-    font-size:50px;
+
+h1 {
+    margin-top: 40px;
+    font-size: 50px;
 }
-h2{
+
+h2 {
     text-align: center;
 }
-#logo{
+
+#logo {
     margin-top: 170px;
 }
-.aboutus{
+
+.aboutus {
     text-align: center;
 }
-.row{
+
+.row {
     text-align: center;
 }
-.contact{
+
+.contact {
     background-image: url("../assets/backgrounds/c_image.jpg");
     color: white;
     background-size: cover;
 }
-#mouse{
-    margin-top:150px;
+
+#mouse {
+    margin-top: 150px;
 }
-#footer{
+
+#footer {
     text-align: center;
 }
-.service{
+
+.service {
     background-image: url("../assets/backgrounds/s_image.jpg");
     text-align: center;
     color: white;
@@ -45,60 +54,79 @@ h2{
     margin-bottom: 40px;
     margin-top: 40px;
 }
+
 @media (min-width: 1200px) {
-    .container{
+    .container {
         max-width: 1480px;
     }
-  }
-input[type=text], input[type=email]{
+}
+
+input[type=text],
+input[type=email] {
     background: transparent;
-    }
-#textarea{
+    margin: 10px;
+}
+
+#textarea {
     background: transparent;
- }
- .social{
+}
+
+.social {
     text-align: center;
-    }
- #design2 {
+}
+
+#design2 {
     display: none;
- }
- .work4 {
+}
+
+.work4 {
     position: relative;
- }
- .black {
+}
+
+.black {
     position: absolute;
     display: none;
     border: 2px solid white;
     border-top: 4px;
     text-align: center;
     color: black;
- }
- #dev2{
+}
+
+#dev2 {
     display: none;
- }
- #product2{
-    display:none;
- }
-.message-form{
+}
+
+#product2 {
+    display: none;
+}
+
+.message-form {
     background: transparent;
     color: white;
 }
-.form-group{
+
+.form-group {
     background: transparent;
     color: white;
 }
-#input1,#input2,#comment{
+
+#mce-FNAME,
+#Mce-EMAIL,
+#mce-MMERGE2 {
     background-color: transparent;
     color: white;
     border: 1px solid white;
 }
+
 ::placeholder {
     color: white;
 }
-textarea{
+
+textarea {
     width: 75%;
 }
-h4{
+
+h4 {
     background-color: white;
     margin: 10px 10px 10px 10px;
 }

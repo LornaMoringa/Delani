@@ -60,10 +60,10 @@ $('document').ready(function () {
     $('#work8').hover(function () {
         $('#giraffe').toggle();
     })
-    $("form#message-form").submit(function () {
-        var name = $("input#input1").val();
+    $("form#mc-embedded-subscribe-form").submit(function () {
+        var name = $("input#mce-FNAME").val();
         var form = document.getElementsByName("form1")[0];
-        if ($("input#input1").val() && $("input#input2").val()) {
+        if ($("input#mce-FNAME").val() && $("input#mce-FNAME").val()) {
             alert(name + ",thank you for reaching out to us. We will get back to you soon.");
             form.reset();
             return false;
