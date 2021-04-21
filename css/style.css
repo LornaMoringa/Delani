@@ -8,6 +8,9 @@
     margin-bottom: 40px;
     height: 800px;
 }
+.img-fluid{
+    margin-bottom: 5px;
+}
 
 h1 {
     margin-top: 40px;
@@ -52,6 +55,9 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 40px 5px 0px 5px;
+    height: 400px;
+    margin-bottom: 40px;
+    padding-top: 8rem;
     
 }
 
@@ -112,11 +118,15 @@ input[type=email] {
 }
 
 #mce-FNAME,
-#Mce-EMAIL,
+#mce-EMAIL,
 #mce-MMERGE2 {
     background-color: transparent;
     color: white;
     border: 1px solid white;
+}
+.mc-embedded-subscribe{
+    align-items: center;
+    width: 100%;
 }
 
 ::placeholder {
@@ -139,4 +149,30 @@ h4 {
 }
 form{
     margin: 10px 18% 10px 15%;
+}
+@media (max-width: 780px) {
+    .img-fluid{
+    margin:5px 5px 5px 5px;
+    width: 100%;
+    } 
+    .container{
+        margin: 5px;
+        width: 100%;
+    }
+    #portfolio img{
+        width: 100%;
+        margin: 5px;
+    }
+}
+@media screen and (min-width:500px) and (max-width: 1000px) {
+    .img-fluid{
+    padding: 0;
+    width: 100%;
+    margin: 5px;
+
+    } 
+    .container{
+        margin: opx;
+        padding: 0px;
+    }
 }
