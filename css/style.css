@@ -34,6 +34,7 @@ h2 {
     background-image: url("../assets/backgrounds/c_image.jpg");
     color: white;
     background-size: cover;
+    height: 600px;
 }
 
 #mouse {
@@ -129,4 +130,7 @@ textarea {
 h4 {
     background-color: white;
     margin: 10px 10px 10px 10px;
+}
+.social{
+    margin-top: 40px;
 }

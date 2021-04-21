@@ -62,7 +62,7 @@ $('document').ready(function () {
     })
     $("form#mc-embedded-subscribe-form").submit(function () {
         var name = $("input#mce-FNAME").val();
-        var form = document.getElementsByName("form1")[0];
+        var form = document.getElementsByName("mc-embedded-subscribe-form")[0];
         if ($("input#mce-FNAME").val() && $("input#mce-FNAME").val()) {
             alert(name + ",thank you for reaching out to us. We will get back to you soon.");
             form.reset();
